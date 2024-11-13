@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,400i,600,700,800&amp;display=swap");
+.cookie-window {
+  font-family: 'Nunito', sans-serif;
+  position: fixed;
+  z-index: 9999;
+  right: 0;
+  width: 400px;
+  bottom: 0;
+  display: none;
+}
+
+.cookie-window ._shell {
+  background: #1c2f3c;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 20px 30px;
+  color: #eee;
+}
+
+.cookie-window ._shell p {
+  margin-bottom: 5px;
+}
+
+.cookie-window ._close {
+  position: ABSOLUTE;
+  right: 30px;
+  top: 10px;
+  border: 1px solid #b7b4b4;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #ffbcbc;
+  display: none;
+}
+
+.cookie-window ._header p {
+  font-size: 30px;
+  font-weight: 800;
+  color: #d2c9c9;
+}
+
+.cookie-window ._content {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.cookie-window ._content a {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.cookie-window ._content a.__main {
+  background: #e2bc00;
+  color: #333;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.cookie-window ._content a.__secondary {
+  border: 1px solid #e2bc00;
+  color: #e2bc00;
+  margin-left: 5px;
+}
+
+.cookie-window ._checkboxs {
+  padding: 5px 0px 15px 0px;
+  /*Alter bootstrap checkbox default colour*/
+}
+
+.cookie-window ._checkboxs .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #e2bc00;
+}
+
+.cookie-window ._checkboxs .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #e2bc00;
+}
+
+.cookie-window ._checkboxs .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  background-color: rgba(226, 188, 0, 0.6);
+}
+
+.cookie-window ._checkboxs .custom-control-input:disabled ~ .custom-control-label {
+  color: #a5aeb7;
+}
+
+@media screen and (max-width: 500px) {
+    .cookie-window {
+        width:auto;
+    }
+
+    .cookie-window ._shell {
+        margin:0;
+    }
+}
