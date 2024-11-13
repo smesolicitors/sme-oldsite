@@ -5,7 +5,7 @@
             
             /**
             $(".menu-button").click(function(e) {
-                $('.mobile-menu').toggleClass('menu-open');http://localhost/smesolicitors/system/img/banner3.jpg
+                $('.mobile-menu').toggleClass('menu-open');https://localhost/smesolicitors/system/img/banner3.jpg
                 e.stopPropagation()
             });
 
